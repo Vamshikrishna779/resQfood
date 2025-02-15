@@ -55,7 +55,9 @@ resQfood is a mobile application that aims to bridge the gap between surplus foo
 
 1. **Start Pages** - Welcome screens for users.
    
-   ![image](https://github.com/user-attachments/assets/14b0f34b-50d5-459e-bf7a-0dfcc78b2b97)![image](https://github.com/user-attachments/assets/79dfdd3e-e061-4543-b290-33e470ffade6)
+   | Start Page 1 | Start Page 2 |
+|-------------|-------------|
+| ![image1](https://github.com/user-attachments/assets/14b0f34b-50d5-459e-bf7a-0dfcc78b2b97) | ![image2](https://github.com/user-attachments/assets/79dfdd3e-e061-4543-b290-33e470ffade6) |
 
 
 3. **Signup/Login Page** - Authentication for donors and recipients.
