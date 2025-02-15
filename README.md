@@ -82,7 +82,7 @@ resQfood is a mobile application that aims to bridge the gap between surplus foo
 <p align="center">
 
   <img src="https://github.com/user-attachments/assets/d3fad66f-94ae-49d9-b21d-fb8097585f00" width="250" height="600">
-  <img src="https://github.com/user-attachments/assets/cd558e7a-eba5-4aab-b298-3b71a3fcea3b" width="250" height="600">
+  
 </p>
 
 <h3>7. Profile & Account Management - Editable user information.</h3>
