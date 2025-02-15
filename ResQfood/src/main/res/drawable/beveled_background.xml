@@ -1,0 +1,5 @@
+<!-- res/drawable/beveled_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="8dp" /> <!-- Adjust the radius to control the bevel effect -->
+    <solid android:color="@color/bevel" /> <!-- Adjust the color as needed -->
+</shape>
