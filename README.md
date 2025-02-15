@@ -82,23 +82,25 @@ resQfood is a mobile application that aims to bridge the gap between surplus foo
 <p align="center">
 
   <img src="https://github.com/user-attachments/assets/d3fad66f-94ae-49d9-b21d-fb8097585f00" width="250" height="600">
+  <img src="https://github.com/user-attachments/assets/cd558e7a-eba5-4aab-b298-3b71a3fcea3b" width="250" height="600">
 </p>
 
 <h3>7. Profile & Account Management - Editable user information.</h3>
 <p align="center">
     <img src="https://github.com/user-attachments/assets/5b2abea5-ac33-47f6-bf3b-e0541376c676" width="250" height="500">
-  <img src="https://github.com/user-attachments/assets/cd558e7a-eba5-4aab-b298-3b71a3fcea3b" width="250" height="500">
+  
 </p>
 
 <h3>8. Food Search & Contact - Recipients can browse food and contact donors.</h3>
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0a63a809-7350-45d5-afea-1b8c43371cc1" width="250" height="500">
-  <img src="https://github.com/user-attachments/assets/8ffa0049-5406-4e8c-82e6-f8ad6dbb3269" width="250" height="500">
+   <img src="https://github.com/user-attachments/assets/4b5825a7-bdc4-4de9-ac2e-74438368c8c5" width="250" height="500">
 </p>
 
 <h3>9. Approval & Confirmation - Donors approve requests; recipients track status.</h3>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4b5825a7-bdc4-4de9-ac2e-74438368c8c5" width="250" height="500">
+  <img src="https://github.com/user-attachments/assets/8ffa0049-5406-4e8c-82e6-f8ad6dbb3269" width="250" height="500">
+ 
   <img src="https://github.com/user-attachments/assets/31eb91a6-e004-41d3-881c-e53c96822ed0" width="250" height="500">
   <img src="https://github.com/user-attachments/assets/1b512af6-42a4-4a49-bf89-91c4dfbb8715" width="250" height="500">
 </p>
