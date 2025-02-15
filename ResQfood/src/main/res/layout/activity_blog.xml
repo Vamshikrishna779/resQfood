@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_color">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/theme_color">
+    <!-- Image -->
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fd_1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/textViewTitle1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How You Can Help Fight Hunger"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:textColor="@color/textColor"
+        app:layout_constraintTop_toBottomOf="@id/imageView1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Description -->
+    <TextView
+        android:id="@+id/textViewDescription1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Learn about the various ways you can contribute to ending hunger in your community, from volunteering at local food banks to organizing donation drives."
+        android:padding="16dp"
+        android:textColor="@color/textColor"
+        app:layout_constraintTop_toBottomOf="@id/textViewTitle1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+        <TextView
+            android:id="@+id/textViewLearnMore1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Learn More"
+            android:padding="8dp"
+            android:clickable="true"
+            android:textColor="@color/textColor"
+            app:layout_constraintTop_toBottomOf="@id/textViewDescription1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:onClick="openUrl1" />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fd_2"
+        app:layout_constraintTop_toBottomOf="@id/textViewLearnMore1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/textViewTitle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Impact of Food Donations on Communities"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:textColor="@color/textColor"
+        app:layout_constraintTop_toBottomOf="@id/imageView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Description -->
+    <TextView
+        android:id="@+id/textViewDescription2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Discover the positive effects of food donations on communities, including reducing food waste, supporting those in need, and fostering a sense of unity."
+        android:padding="16dp"
+        android:textColor="@color/textColor"
+        app:layout_constraintTop_toBottomOf="@id/textViewTitle2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewLearnMore2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Learn More"
+            android:padding="8dp"
+            android:clickable="true"
+            android:textColor="@color/textColor"
+            app:layout_constraintTop_toBottomOf="@id/textViewDescription2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:onClick="openUrl2" />
+
+        <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fd_3"
+        app:layout_constraintTop_toBottomOf="@id/textViewLearnMore2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/textViewTitle3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Importance of Donating Nutritious Foods"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:textColor="@color/textColor"
+        app:layout_constraintTop_toBottomOf="@id/imageView3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Description -->
+    <TextView
+        android:id="@+id/textViewDescription3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Explore why donating nutritious foods is crucial for food banks and organizations, and how it can improve the health and well-being of recipients."
+        android:padding="16dp"
+        android:textColor="@color/textColor"
+        app:layout_constraintTop_toBottomOf="@id/textViewTitle3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewLearnMore3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Learn More"
+            android:padding="8dp"
+            android:clickable="true"
+            android:textColor="@color/textColor"
+            app:layout_constraintTop_toBottomOf="@id/textViewDescription3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:onClick="openUrl3" />
+
+        <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fd_4"
+        android:textColor="@color/textColor"
+        app:layout_constraintTop_toBottomOf="@id/textViewLearnMore3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/textViewTitle4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volunteer Spotlight: Making a Difference Through Food Donations"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:textColor="@color/textColor"
+        app:layout_constraintTop_toBottomOf="@id/imageView4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Description -->
+    <TextView
+        android:id="@+id/textViewDescription4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Meet inspiring volunteers who are making a difference in their communities through their dedication to organizing and distributing food donations."
+        android:padding="16dp"
+        android:textColor="@color/textColor"
+        app:layout_constraintTop_toBottomOf="@id/textViewTitle4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+        <TextView
+            android:id="@+id/textViewLearnMore4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Learn More"
+            android:padding="8dp"
+            android:clickable="true"
+            android:textColor="@color/textColor"
+            app:layout_constraintTop_toBottomOf="@id/textViewDescription4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:onClick="openUrl4" />
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

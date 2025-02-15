@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_color">
+
+    <EditText
+        android:id="@+id/autoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edittext_border"
+        android:hint="Address"
+        android:inputType="text"
+        android:padding="8dp"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/hintColor" />
+
+    <EditText
+        android:id="@+id/editTextCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/autoCompleteTextView"
+        android:hint="City"
+        android:layout_margin="16dp"
+        android:padding="8dp"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/hintColor"
+        android:background="@drawable/edittext_border"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextCity"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edittext_border"
+        android:hint="State"
+        android:inputType="text"
+        android:padding="8dp"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/hintColor" />
+
+    <EditText
+        android:id="@+id/editTextPostalCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextState"
+        android:hint="Postal Code"
+        android:layout_margin="16dp"
+        android:padding="8dp"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/hintColor"
+        android:background="@drawable/edittext_border"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buttonSaveAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPostalCode"
+        android:textColor="@color/buttoncolor"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:backgroundTint="@color/buttonback"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Save Address" />
+
+    <Button
+        android:id="@+id/buttonGetCurrentLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Current Location"
+        android:layout_below="@id/buttonSaveAddress"
+        android:textColor="@color/buttoncolor"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:backgroundTint="@color/buttonback"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonSaveChanges"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonGetCurrentLocation"
+        android:textColor="@color/buttoncolor"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:backgroundTint="@color/buttonback"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:layout_marginTop="16dp"
+        android:text="Save Changes" />
+
+</RelativeLayout>

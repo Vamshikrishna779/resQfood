@@ -1,0 +1,37 @@
+<!-- item_donation.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    style="@style/BeveledSearchView"
+    android:padding="10dp">
+
+    <!-- Add TextViews to display donation details -->
+    <TextView
+        android:id="@+id/textViewFoodName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+         />
+
+    <TextView
+        android:id="@+id/textViewExpirationDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageViewFood"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY" />
+
+</LinearLayout>

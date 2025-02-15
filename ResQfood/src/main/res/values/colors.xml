@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="main_color">#08FF00</color>
+    <color name="textColor">#000000</color>
+    <color name="hintColor">#999999</color>
+    <color name="transparent">#00000000</color>
+    <color name="semiTransparent">#CC000000</color>
+    <color name="spinner_item_color">#090909</color>
+    <color name="theme_color">#FFFFFFFF</color>
+    <color name="buttoncolor">#FFFFFFFF</color>
+    <color name="buttonback">#FF000000</color>
+    <color name="bevel">#F2F1F1</color>
+
+
+
+
+</resources>

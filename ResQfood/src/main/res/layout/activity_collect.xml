@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_color"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Recipient's Name -->
+        <EditText
+            android:id="@+id/editTextRecipientName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="Recipient's Name"
+            android:inputType="text"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/hintColor" />
+
+        <!-- Recipient's Contact Information -->
+        <EditText
+            android:id="@+id/editTextRecipientContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="Contact Information"
+            android:inputType="text"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/hintColor" />
+
+        <!-- Pick-up Location -->
+        <EditText
+            android:id="@+id/editTextPickupLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="Location"
+            android:inputType="text"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/hintColor" />
+
+        <!-- Preferred Date and Time -->
+        <EditText
+            android:id="@+id/editTextPreferredDateTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="Date and Time to get the Donation"
+            android:inputType="datetime"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/hintColor" />
+
+        <!-- Any Special Instructions -->
+        <EditText
+            android:id="@+id/editTextSpecialInstructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="Any Comments"
+            android:inputType="text"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/hintColor" />
+        <EditText
+            android:id="@+id/editTextStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="Status"
+            android:inputType="text"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/hintColor"
+            android:visibility="gone"/>
+
+        <!-- Confirmation Checkbox -->
+        <CheckBox
+            android:id="@+id/checkBoxConfirmation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I agree to collect the donation and adhere to any terms or conditions."
+            android:textColor="@color/textColor" />
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/buttonSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/buttoncolor"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:backgroundTint="@color/buttonback"
+            android:text="Submit"
+            android:onClick="onCollectClick" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BeveledSearchView" parent="Widget.AppCompat.SearchView">
+        <!-- Add any additional styling you want for the SearchView here -->
+        <!-- For a bevel effect, you might consider adding a background drawable -->
+        <item name="android:background">@drawable/beveled_background</item>
+        <item name="android:elevation">1dp</item>
+
+
+    </style>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:elevation="5dp"
+    style="@style/BeveledSearchView"
+    android:layout_margin="10dp"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewFoodName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:id="@+id/textViewQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/textViewFoodName"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:id="@+id/textViewExpirationDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/textViewQuantity"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"/>
+
+    <ImageView
+        android:id="@+id/imageViewFood"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"
+        android:layout_below="@id/textViewExpirationDate"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"/>
+
+    <Button
+        android:id="@+id/deleteButton"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/buttonback"
+
+        android:text="Delete"
+        android:textColor="@color/buttoncolor"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/textViewExpirationDate"/>
+
+</RelativeLayout>

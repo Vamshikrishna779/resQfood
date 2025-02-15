@@ -1,0 +1,24 @@
+<!-- activity_notification.xml -->
+<!-- activity_notification.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Form History"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:id="@+id/noti"
+        android:textStyle="bold"
+        android:padding="20dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewRecipientDetails"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:clipToPadding="false"
+        android:layout_below="@id/noti"/>
+
+</RelativeLayout>

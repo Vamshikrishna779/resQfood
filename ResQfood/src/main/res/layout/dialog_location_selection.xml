@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/theme_color"
+    android:padding="16dp">
+
+    <!-- MapView placeholder -->
+    <fragment
+        android:id="@+id/mapView"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+    <!-- EditText for place name input -->
+    <EditText
+        android:id="@+id/editTextSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter place name"
+        android:inputType="text" />
+
+    <!-- Button to confirm location -->
+    <Button
+        android:id="@+id/buttonConfirmLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm Location"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Button to skip location selection -->
+    <Button
+        android:id="@+id/buttonSkip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Skip"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Button to search for place -->
+    <Button
+        android:id="@+id/buttonSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>

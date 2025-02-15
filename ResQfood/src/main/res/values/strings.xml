@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">resQfood</string>
+        <string name="name">Name</string>
+        <string name="username">Username</string>
+        <string name="enter_username">Enter Username</string>
+        <string name="password">Password</string>
+        <string name="enter_password">Enter Password</string>
+        <string name="email">E-mail</string>
+        <string name="login">Login</string>
+        <string name="signup">Signup</string>
+        <string name="enter_your_name">Enter Your Name</string>
+        <string name="email_username">Email(username)</string>
+        <string name="theme">Theme</string>
+        <string name="language">Language</string>
+        <string name="welcome_dashboard">Welcome To Dashboard</string>
+        <string name="task_manager">Task Manager</string>
+        <string name="expense_manager">Expense Manager</string>
+        <string name="contact_manager">Contact Manager</string>
+        <string name="add_task">Add Task</string>
+        <string name="add_contact_details">Add Contact Details</string>
+        <string name="add_expenses">Add Expenses</string>
+        <string name="logout">Logout</string>
+        <string name="donor_homepage">Donor Profile</string>
+        <string name="volunteer_homepage">Welcome Volunteer</string>
+        <string name="recipient_homepage">Welcome Recipient</string>
+        <string name="profile">Profile</string>
+
+        <string name="google_maps_key">AIzaSyDrx4zDvwXMPeSEhB6PMwYpLU6798mdBfY</string>
+
+
+
+    <string-array name="roles_array">
+        <item>Select</item>
+
+            <item>Donor</item>
+            <item>Recipient</item>
+        </string-array>
+
+
+    <string name="question_1">How can my organization donate food through ResQFood?</string>
+    <string name="question_2">What types of food can my organization donate?</string>
+    <string name="question_3">Is there a minimum quantity of food required for donation?</string>
+    <string name="question_4">How does ResQFood ensure food safety?</string>
+
+    <!-- Answers -->
+    <string name="answer_1">To donate food through ResQFood as an organization, follow these steps: \n 1. Register or log in to your ResQFood organization account. \n 2. Navigate to the "Donate Food" section. \n 3. Fill out the donation form with details such as food type, quantity, and pickup location. \n 4. Submit your donation request.</string>
+    <string name="answer_2">Your organization can donate any perishable or non-perishable food items that are safe for consumption. This includes surplus food from events, restaurants, cafeterias, etc.</string>
+    <string name="answer_3">There is no minimum quantity requirement for food donations from organizations. Every donation, no matter how small or large, helps feed someone in need.</string>
+    <string name="answer_4">ResQFood partners with registered food banks and NGOs to ensure that all donated food items meet safety standards. Additionally, our volunteers undergo training in food handling and safety.</string><!-- Add more questions and answers as needed -->
+
+
+    </resources>

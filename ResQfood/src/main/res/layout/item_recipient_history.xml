@@ -1,0 +1,75 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/theme_color"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:elevation="5dp"
+        style="@style/BeveledSearchView">
+        <TextView
+            android:id="@+id/textViewRecipientName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Recipient Name: "
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/textViewRecipientContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewRecipientName"
+            android:layout_marginTop="16dp"
+            android:text="Recipient Contact: "
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewPickupLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewRecipientContact"
+            android:layout_marginTop="16dp"
+            android:text="Pickup Location: "
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewPreferredDateTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewPickupLocation"
+            android:layout_marginTop="16dp"
+            android:text="Preferred Date and Time: "
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewSpecialInstructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewPreferredDateTime"
+            android:layout_marginTop="16dp"
+            android:text="Special Instructions: "
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/textViewStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewSpecialInstructions"
+            android:layout_marginTop="16dp"
+            android:text="Status: "
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</RelativeLayout>

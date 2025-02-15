@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/theme_color"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textSize="20sp"
+        android:textColor="@color/textColor"
+        android:layout_marginTop="16dp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        android:contentDescription="Settings Image"
+        android:layout_marginTop="16dp"/>
+
+
+
+    <Button
+        android:id="@+id/buttonSignout"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/buttoncolor"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:backgroundTint="@color/buttonback"
+        android:text="Sign out"
+
+        android:textSize="15sp" />
+
+</LinearLayout>

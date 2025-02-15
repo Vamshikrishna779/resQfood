@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Other theme attributes -->
+        <item name="searchViewStyle">@style/MySearchViewStyle</item>
+    </style>
+
+    <style name="MySearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <!-- Set the text color for the SearchView -->
+        <item name="android:textColor">#120F0F</item>
+        <!-- Set the hint text color for the SearchView -->
+        <item name="android:queryHint">black</item>
+    </style>
+    <style name="TabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">16sp</item> <!-- Set the desired text size -->
+        <!-- You can also customize other text attributes here if needed -->
+    </style>
+    <style name="BeveledSearchView" parent="Widget.AppCompat.SearchView">
+        <!-- Add any additional styling you want for the SearchView here -->
+        <!-- For a bevel effect, you might consider adding a background drawable -->
+        <item name="android:background">@drawable/beveled_background</item>
+        <item name="android:elevation">1dp</item>
+
+
+    </style>
+
+</resources>

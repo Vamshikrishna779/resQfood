@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_color"
+    android:paddingBottom="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/textViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Join Us in Making a Difference, Donate and Relieve Hunger"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:textColor="@color/textColor"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="16dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardViewFood"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:cardCornerRadius="75dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="0dp"
+                android:layout_below="@id/textViewTitle"
+
+                android:layout_marginBottom="16dp">
+
+                <ImageView
+                    android:id="@+id/imageViewFood"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/donate"
+                    android:scaleType="centerCrop" />
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Existing EditTexts -->
+
+            <Button
+                android:id="@+id/buttonSelectImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/cardViewFood"
+                android:layout_alignTop="@id/cardViewFood"
+                android:layout_marginStart="16dp"
+                android:textColor="@color/buttoncolor"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:backgroundTint="@color/buttonback"
+                android:text="FoodSnap"
+                />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="2dp"
+            android:background="#F1EEEE"
+            android:elevation="4dp">
+
+
+        <EditText
+            android:id="@+id/editTextFoodName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:hint="Food Name"
+            android:textColorHint="@color/hintColor"
+            android:textColor="@color/black"
+            android:inputType="text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/buttonSelectImage" />
+
+        <EditText
+            android:id="@+id/editTextQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:hint="Quantity"
+            android:textColor="@color/black"
+            android:textColorHint="@color/hintColor"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editTextFoodName" />
+
+        <EditText
+            android:id="@+id/editTextExpirationDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:hint="Expiration Date"
+            android:textColor="@color/black"
+            android:textColorHint="@color/hintColor"
+            android:inputType="date"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editTextQuantity" />
+
+        <EditText
+            android:id="@+id/editTextPackaging"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:hint="Packaging"
+            android:textColor="@color/black"
+            android:textColorHint="@color/hintColor"
+            android:inputType="text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editTextExpirationDate" />
+
+        <EditText
+            android:id="@+id/editTextCondition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:hint="Condition"
+            android:textColor="@color/black"
+            android:textColorHint="@color/hintColor"
+            android:inputType="text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editTextPackaging" />
+
+
+
+        <EditText
+            android:id="@+id/editTextPreferredTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:hint="Preferred Time"
+            android:textColor="@color/black"
+            android:textColorHint="@color/hintColor"
+            android:inputType="text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editTextCondition" />
+
+            <EditText
+                android:id="@+id/editTextMobileNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:hint="Mobile Number"
+                android:textColorHint="@color/hintColor"
+                android:textColor="@color/black"
+                android:inputType="phone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/editTextPreferredTime" />
+
+            <EditText
+            android:id="@+id/editTextOrganization"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:hint="Organization"
+            android:textColorHint="@color/hintColor"
+            android:inputType="text"
+                android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editTextMobileNumber" />
+
+
+        <EditText
+            android:id="@+id/editTextLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:hint="Location"
+            android:textColorHint="@color/hintColor"
+            android:inputType="text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editTextOrganization" />
+            <fragment
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/editTextLocation" />
+
+        <EditText
+            android:id="@+id/editTextSpecialInstructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:hint="Special Instructions"
+            android:textColor="@color/black"
+            android:textColorHint="@color/hintColor"
+            android:inputType="text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editTextLocation" />
+
+    </LinearLayout>
+        <Button
+            android:id="@+id/buttonSubmitDonation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Donate Now"
+            android:textColor="@color/buttoncolor"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:backgroundTint="@color/buttonback"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_gravity="center"
+            app:layout_constraintTop_toBottomOf="@id/editTextSpecialInstructions" />
+
+    </LinearLayout>
+</ScrollView>

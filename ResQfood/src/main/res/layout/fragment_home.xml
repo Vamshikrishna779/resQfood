@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/theme_color">
+
+    <include layout="@layout/activity_top_section" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textColor="@color/textColor"
+        android:background="@color/theme_color"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/theme_color"
+            android:gravity="center_horizontal">
+
+            <!-- SearchView -->
+
+
+            <!-- Slide Show -->
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_marginTop="0dp" />
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tabLayout"
+                android:layout_width="match_parent"
+                android:layout_height="27dp"
+                android:layout_marginTop="-30dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/transparent"
+                app:tabGravity="center"
+                app:tabMode="fixed" />
+
+            <!-- Three ImageViews and Buttons in one line -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="35dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="35dp"
+                    android:gravity="center_horizontal">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/donate"
+                        style="@style/BeveledSearchView"
+                        android:padding="10dp"
+                        android:contentDescription="Donate_Food"
+                        android:layout_marginTop="16dp" />
+
+                    <Button
+                        android:id="@+id/buttonDonate"
+                        android:textColor="@color/buttoncolor"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:backgroundTint="@color/buttonback"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+
+                        android:layout_gravity="center"
+                        android:text="Donate"
+
+                        android:textSize="13sp"
+                        app:icon="@drawable/ic_donate"
+                        app:iconTint="?attr/actionMenuTextColor"
+                        app:strokeColor="#6FBD45" />
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/blog"
+                        style="@style/BeveledSearchView"
+                        android:padding="10dp"
+                        android:contentDescription="Home Image"
+                        android:layout_marginTop="16dp" />
+
+                    <Button
+                        android:id="@+id/buttonBlog"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="  Blog  "
+                        android:textSize="13sp"
+                        android:textColor="@color/buttoncolor"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:backgroundTint="@color/buttonback"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="0dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="35dp"
+                    android:layout_marginRight="35dp"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/plan"
+                        style="@style/BeveledSearchView"
+                        android:padding="10dp"
+                        android:contentDescription="Home Image"
+                        android:layout_marginTop="16dp" />
+
+                    <Button
+                        android:id="@+id/buttonContact"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Donations"
+                        android:textSize="13sp"
+                        android:layout_gravity="center"
+                        android:textColor="@color/buttoncolor"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:backgroundTint="@color/buttonback"
+                        android:layout_marginStart="0dp" />
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/share"
+                        style="@style/BeveledSearchView"
+                        android:padding="10dp"
+                        android:contentDescription="Share_Food"
+                        android:layout_marginTop="16dp" />
+
+                    <Button
+                        android:id="@+id/buttonShare"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Share App"
+                        android:textSize="13sp"
+                        android:textColor="@color/buttoncolor"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:backgroundTint="@color/buttonback"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="0dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Add your content here -->
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

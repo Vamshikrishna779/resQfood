@@ -1,0 +1,65 @@
+<!-- dialog_collect.xml -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Recipient's Name -->
+        <EditText
+            android:id="@+id/editTextRecipientName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="Recipient's Name"
+            android:inputType="text" />
+
+        <!-- Recipient's Contact Information -->
+        <EditText
+            android:id="@+id/editTextRecipientContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="Recipient's Contact Information"
+            android:inputType="text" />
+
+        <!-- Pick-up Location -->
+        <EditText
+            android:id="@+id/editTextPickupLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="Pick-up Location"
+            android:inputType="text" />
+
+        <!-- Preferred Date and Time -->
+        <EditText
+            android:id="@+id/editTextPreferredDateTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="Preferred Date and Time"
+            android:inputType="datetime" />
+
+        <!-- Any Special Instructions -->
+        <EditText
+            android:id="@+id/editTextSpecialInstructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="Any Special Instructions"
+            android:inputType="text" />
+
+        <!-- Confirmation Checkbox -->
+        <CheckBox
+            android:id="@+id/checkBoxConfirmation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I agree to collect the donation and adhere to any terms or conditions." />
+
+    </LinearLayout>
+</ScrollView>
