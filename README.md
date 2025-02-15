@@ -54,14 +54,36 @@ resQfood is a mobile application that aims to bridge the gap between surplus foo
 ## Screenshots
 
 1. **Start Pages** - Welcome screens for users.
-2. **Signup/Login Page** - Authentication for donors and recipients.
-3. **Home Page** - Displays available food donations.
-4. **Food Donation Form** - Enables donors to list available food.
-5. **Donation Tracking** - Allows donors to manage food donations.
-6. **Blog & Share Feature** - Raises awareness about food waste.
-7. **Profile & Account Management** - Editable user information.
-8. **Food Search & Contact** - Recipients can browse food and contact donors.
-9. **Approval & Confirmation** - Donors approve requests; recipients track status.
+   ![image](https://github.com/user-attachments/assets/14b0f34b-50d5-459e-bf7a-0dfcc78b2b97)![image](https://github.com/user-attachments/assets/79dfdd3e-e061-4543-b290-33e470ffade6)
+
+
+3. **Signup/Login Page** - Authentication for donors and recipients.
+   ![image](https://github.com/user-attachments/assets/649522f6-a099-433f-9b29-093df2e5ada1)![image](https://github.com/user-attachments/assets/92b9a344-3194-4f8b-9ebf-a8da6d0ee74a)
+
+
+5. **Home Page** - Displays available food donations.
+   ![image](https://github.com/user-attachments/assets/f1dfca85-9027-4fb9-b339-599dfa4cb0fb)
+
+7. **Food Donation Form** - Enables donors to list available food.
+   ![image](https://github.com/user-attachments/assets/70c5e6d4-23f3-4ff9-a31d-c2d0c053a260)
+
+9. **Donation Tracking** - Allows donors to manage food donations.
+10. **Blog & Share Feature** - Raises awareness about food waste.
+    ![image](https://github.com/user-attachments/assets/5b2abea5-ac33-47f6-bf3b-e0541376c676)![image](https://github.com/user-attachments/assets/cd558e7a-eba5-4aab-b298-3b71a3fcea3b)
+
+
+12. **Profile & Account Management** - Editable user information.
+    ![image](https://github.com/user-attachments/assets/d3fad66f-94ae-49d9-b21d-fb8097585f00)
+
+14. **Food Search & Contact** - Recipients can browse food and contact donors.
+    ![image](https://github.com/user-attachments/assets/0a63a809-7350-45d5-afea-1b8c43371cc1)![image](https://github.com/user-attachments/assets/8ffa0049-5406-4e8c-82e6-f8ad6dbb3269)
+
+
+16. **Approval & Confirmation** - Donors approve requests; recipients track status.
+  ![image](https://github.com/user-attachments/assets/4b5825a7-bdc4-4de9-ac2e-74438368c8c5)
+  ![image](https://github.com/user-attachments/assets/31eb91a6-e004-41d3-881c-e53c96822ed0)![image](https://github.com/user-attachments/assets/1b512af6-42a4-4a49-bf89-91c4dfbb8715)
+
+
 
 ## Installation & Setup
 
