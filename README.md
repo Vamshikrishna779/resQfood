@@ -61,12 +61,14 @@ resQfood is a mobile application that aims to bridge the gap between surplus foo
 <h3>2. Signup/Login Page - Authentication for donors and recipients.</h3>
 <p align="center">
   <img src="https://github.com/user-attachments/assets/649522f6-a099-433f-9b29-093df2e5ada1" width="250" height="500">
-  <img src="https://github.com/user-attachments/assets/92b9a344-3194-4f8b-9ebf-a8da6d0ee74a" width="250" height="500">
+    <img src="https://github.com/user-attachments/assets/f1dfca85-9027-4fb9-b339-599dfa4cb0fb" width="250" height="500">
+  
 </p>
 
 <h3>3. Home Page - Displays available food donations.</h3>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/f1dfca85-9027-4fb9-b339-599dfa4cb0fb" width="250" height="500">
+  <img src="https://github.com/user-attachments/assets/92b9a344-3194-4f8b-9ebf-a8da6d0ee74a" width="250" height="500">
+
 </p>
 
 <h3>4. Food Donation Form - Enables donors to list available food.</h3>
